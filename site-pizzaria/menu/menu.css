@@ -1,0 +1,85 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 12px;
+  padding-top: 6%;
+}
+
+section div {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#dint {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  /* border: 1px solid; */
+  width: 100%;
+  height: 105px;
+}
+
+section a {
+  margin-top: 2%;
+  text-decoration: none;
+  background-color: white;
+  color: #8a0000;
+  font-weight: 600;
+  border: 2px solid;
+  padding: 2%;
+  font-size: 16px;
+  letter-spacing: -1px;
+  border-radius: 5px;
+
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+section a:hover {
+  background-color: #8a0000;
+  transition: 0.4s;
+  color: white;
+}
+
+
+section h3 {
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+section p {
+  margin-top: -1.5%;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+section h3,
+p {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#tdivs {
+  grid-column: 1 / span 3;
+  background-color: #b43313;
+  color: white;
+  /* padding: 0;
+  padding-top: 1%; */
+
+  border-radius: 5px;
+
+}
+
+#tdivs h2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  margin-bottom: -0.5%;
+}

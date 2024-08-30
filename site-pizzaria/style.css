@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+body {
+  /* background-color: #f4dddd; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  max-width: 100%;
+}
+
+
+#navzao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.45); */
+  /* background: transparent; */
+  width: 100%;
+  /* background-color: #b38f65; */
+  position: fixed;
+  z-index: 1;
+  /* margin-top: 0; */
+  /* border: 2px solid ; */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.65), rgba(70, 0, 0, 0.4));
+  height: 80px;
+ 
+}
+
+/* nav > li{
+  align-items: center;
+  color: white;
+}
+
+nav > div:nth-child{
+   display: grid;
+} */
+
+
+
+#logo {
+  margin-right: 290px;
+  padding: 0;
+  /* border: 2px solid; */
+}
+
+#logo img {
+  height: 150px;
+}
+
+.nav-item1 {
+  margin-left: 270px;
+}
+
+
+
+
+#link1,
+#link2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /* letter-spacing: 1px;   */
+  color: white;
+  /* border-radius: 10px; */
+  font-size: 23px;
+  margin-top: 55px;
+  /* font-weight: 200; */
+  font-optical-sizing: auto;
+  font-weight: 335;
+  font-style: normal;
+}
+
+#link1:hover,
+#link2:hover {
+  color: sandybrown;
+  transition: 0.4s;
+  /* border-bottom: 3px solid; */
+  text-decoration: underline;
+  /* border-radius: 5px; */
+}
+
+
+
+
+
+
+.d-inline-block align-text-top {
+  height: 80px;
+  width: 290px;
+}
+/* ///////////////////////////////////////////////////// */
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imagens/pizzamain.jpg);
+  height: 70%;
+  /* height: 600px; */
+  width: 100%;
+  background-size: cover;
+  z-index: 2;
+}
+
+
+#cardzao {
+  width: 60%;
+  margin-top: 10%;
+  border-radius: 20px;
+  height: 340px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+
+/* #cardzao img{
+  border-radius: 20px;
+  max-width: 40%;
+ background-color: rgba(255, 255, 255, 0.45); 
+  height: 300px;
+} */
+
+
+#cardzao p,
+#cardzao h2 {
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+#cardzao h2 {
+  /* letter-spacing: -2px; */
+  font-size: 54px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 0.6mm;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* font-style: normal; */
+}
+
+
+#cardzao p {
+  margin-bottom: 2%;
+  font-size: 16px;
+}
+
+
+.card-link {
+  color: white;
+  /* background-color: #b38f65; */
+  border: 1px solid;
+  padding: 2% 4% 2% 4%;
+  font-size: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 1px;
+  font-optical-sizing: auto;
+  font-weight: 365;
+  font-style: normal;
+}
+
+#links2 {
+  margin-top: 5%;
+}
+
+#links2 a:hover {
+  /* background-color: #374a77; */
+  /* background-color: #b38f65; */
+  /* background-color: #937758; */
+  background-color: #b43313;
+  transition: 0.4s;
+}
+
+.t1 {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 2px 7px #ffffff;
+  font-weight: 650;
+
+
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+
+
+
+section {
+  /* height: 400px; */
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.5)); */
+  margin-bottom: 5%;
+}
+
+#divsec {
+  height: 650px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 1%;
+  /* position: absolute; */
+}
+
+#divs1 {
+  flex: 35%;
+  margin-left: 12%;
+  margin-right: 5%;
+  /* width: 40%; */
+  text-align: justify;
+}
+
+
+#ts1 {
+  /* margin-bottom: -20px; */
+  font-size: 17px;
+  letter-spacing: -1px;
+  color: #76662e;
+}
+
+#divs1 h2 {
+  font-size: 80px;
+  margin-bottom: 4%;
+  margin-top: -4%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /* letter-spacing: 0.6mm;   */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* letter-spacing: 1px; */
+}
+
+#divs1 p {
+  margin-bottom: 20px;
+}
+
+#link3 {
+  margin-top: 50px;
+}
+
+.section-link {
+  color: #8a0000;
+  /* background-color: #b38f65; */
+  border: 2px solid;
+  padding: 4% 8% 4% 8%;
+  font-size: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 1px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.section-link:hover {
+  /* background-color: #374a77; */
+  background-color: #8a0000;
+  transition: 0.4s;
+  color: white;
+}
+
+
+
+#divs2 {
+  flex: 40%;
+  margin-left: 3%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+#divs2 img {
+  width: 600px;
+  margin-top: 5%;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+  /* margin: 0 auto; */
+  /* gap: 20px;   */
+  background-color: #181111;
+  height: 450px;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.divf1,
+.divf2,
+.divf3,
+.divf4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1b1b;
+  /* border: 5px solid #800000; */
+  padding: 5px;
+  margin: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  /* font-size: 27px; */
+  transition: 0.3s;
+  background-color: #8a0000;
+}
+
+#divpf {
+  padding-top: 15%;
+}

@@ -1,0 +1,30 @@
+@media screen and (max-width:1005px){
+
+    #navzao{
+      position: relative;
+      height: auto;
+      z-index: 1987;
+      flex-direction: column;
+    }
+     
+   .d-inline-block align-text-top{
+      width: 220px; 
+     height: 80px; 
+   }
+  
+  #logo {
+    margin-right: 0;
+    flex: 100%;
+  }
+
+  #logo img {
+    height: 100px;
+  }
+
+  .nav-item1 {
+     flex: 100%;
+    margin-left: 0px;
+  }
+
+  
+}

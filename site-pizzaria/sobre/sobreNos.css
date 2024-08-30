@@ -1,0 +1,162 @@
+/* nav{
+  margin-top: 0;
+
+} */
+
+
+body {
+  /* background-color: #6f6758; */
+  /* background-color: rgb(191, 128, 95); */
+  background-image: linear-gradient(to bottom right, rgb(228, 104, 63),  rgb(112, 0, 0) 65%);
+}
+
+body p {
+  color: white;
+  font-size: 17px;
+}
+
+#main2 {
+  display: flex;
+  /* height: 100%; */
+  /* width: 100%; */
+  background-image: none;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+
+
+#divsec-1 {
+  height: 650px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-bottom: 4%;
+  /* position: absolute; */
+  /* background-color: #5a4f3f; */
+
+}
+
+#divs1-1 {
+  /* background-color: #8c8554; */
+  /* background-color: #5c5942; */
+  /* background-color: rgba(25, 25, 25, 0.45); */
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  flex: 45%;
+  margin-left: 10%;
+  margin-right: 4%;
+  margin-top: 7%;
+  /* line-height: 22px; */
+  /* width: 40%; */
+  text-align: justify;
+  padding: 5%;
+  /* padding-right: 6%; */
+  padding-bottom: 4%;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+h2 {
+  font-size: 95px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: white;
+  text-shadow: 0 2px 5px #212121;
+}
+
+
+#divs1-1 h2 {
+  /* padding-bottom: 3%; */
+  position: absolute;
+  /* margin-bottom: 4%;*/
+  margin-top: -6.4%;
+  margin-left: -5%;
+  /* letter-spacing: 0.6mm;   */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* letter-spacing: 1px; */
+}
+
+#divs1-1 p {
+  margin-bottom: 10%;
+  margin-top: 3%;
+  margin-right: 4%;
+}
+
+#divs2-1 {
+  flex: 40%;
+  margin-left: 3%;
+  margin-right: 5%;
+  text-align: justify; 
+  margin-top: 5%;
+}
+
+#divs2-1 img {
+  width: 600px;
+
+}
+
+
+#qualidade {
+  flex: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* background-color: rgba(25, 25, 25, 0.45); */
+  /* background-image: ; */
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
+
+#dq1 {
+  flex: 30%;
+
+}
+
+
+#dq2 {
+  flex: 30%;
+  padding: 2%;
+}
+
+#dq3 {
+  flex: 30%;
+  padding: 2%;
+
+  /* width: 30%; */
+
+}
+
+#diferenciais {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../imagens/pizza-img3.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50% -90px;
+  height: 490px;
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+#diferenciais h2 {
+  flex: 100%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#diferenciais p {
+  flex: 64%;
+  font-size: 23px;
+  margin-left: 18%;
+  margin-right: 18%;
+  text-align: center;
+  margin-bottom: 7%;
+}
